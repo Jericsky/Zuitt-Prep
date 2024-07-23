@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Company</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body align="center">
+
+	<nav id="navigation">
+		<div class="logo">Google</div>
+		<a href="#landing" class="navi">Home</a>
+		<a href="#tools" class="navi">Tools</a>
+		<a href="#contact" class="navi">Contact</a>
+	</nav>
+
+	<div id="landing">
+		<section>
+			<img class="img" src="/Users/christianjericsantos/Downloads/g.png" width="250">
+			<h1>Google</h1>
+			<h3>Who are we?</h3>
+			<p>Google is an American search engine company, founded in 1998 by Sergey Brin and Larry Page. Since 2015, Google has been a subsidiary of the holding company Alphabet, Inc. More than 70% of worldwide online search requests are handled by Google, placing it at the heart of most Internet users' experience.</p>
+			<p>Google's mission is to organize the world's information and make it universally accessible and useful. That's why Search makes it easy to discover a broad range of information from a wide variety of sources. Some information is simple, like the height of the Eiffel Tower.</p>
+		</section>
+	</div>
+
+    <hr>
+
+	<div id="tools">
+		<section>
+			<h1>Tools I Used</h1>
+			<img src="/Users/christianjericsantos/Downloads/git.png" width="100" style="margin-right: 30px">
+			<img src="/Users/christianjericsantos/Downloads/sub.png" width="100" style="margin-right: 30px">
+			<img src="/Users/christianjericsantos/Downloads/html.webp" width="100" style="margin-right: 30px">
+			<img src="/Users/christianjericsantos/Downloads/css.png" width="100" style="margin-right: 30px">
+		</section>
+	</div>
+
+    <hr>
+
+	<div id="contact">
+		<section>
+			<h1>Contact Us!</h1>
+
+			<a href="https://www.facebook.com/christianjeric.santos/" target="_blank">
+				<img src="/Users/christianjericsantos/Downloads/fb.webp" width="100">
+			</a>
+
+			<a href="https://www.linkedin.com/in/christian-jeric-santos-23805a242/" target="_blank">
+				<img src="/Users/christianjericsantos/Downloads/LI.jpg" width="100">
+			</a>
+
+			<a href="https://git.zuitt.co/santoschristianjeric" target="_blank">
+				<img src="/Users/christianjericsantos/Downloads/github.svg" width="70" style="vertical-align: 15px">
+			</a>
+		</section>
+
+		<section id="msgContainer">
+			
+			<form id="msgForm">
+				<h3>Message Us</h3>
+				<label for="firstName" class="input-group">First Name</label><br>
+				<input type="text" name="firstName" class="input-group" size="50" required autocomplete><br>
+
+				<label for="lastName" class="input-group">Last Name</label><br>
+				<input type="text" name="lastName" id="lastName" size="50"><br>
+
+				<label for="email" class="input-group">Email</label><br>
+				<input type="text" name="email" id="email" size="50"><br>
+
+				<label for="contactNum" class="input-group">Contact Number</label><br>
+				<input type="number" name="contactNum" id="contactNum"><br>
+
+				<label for="message" class="input-group">Message</label><br>
+        		<textarea type="message" id="message"></textarea><br>
+
+				<label for="serviceType" class="input-group">Service Type:</label>
+				<select id="serviceType" name="serviceType">
+					<option value="In-person support">In-person support</option>
+					<option value="Phone support">Phone support</option>
+					<option value="Email support">Email support</option>
+					<option value="Social media support">Social media support</option>
+					<option value="Proactice support">Proactice support</option>
+					<option value="Self-service support">Self-service support</option>
+				</select><br><br>
+        		<button type="Submit" class="button">Submit</button>
+        		<button type="Reset" class="button">Reset</button>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

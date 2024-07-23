@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Navigation Styles */
+#navigation {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+#navigation .logo {
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+#navigation .navi {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#navigation .navi:hover {
+    background-color: #575757;
+}
+
+/* Landing Section Styles */
+#landing {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#landing .img {
+    margin-bottom: 20px;
+}
+
+/* Tools Section Styles */
+#tools {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+}
+
+#tools img {
+    margin-right: 30px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#contact h1 {
+    margin-bottom: 30px;
+}
+
+#contact a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#contact img {
+    vertical-align: middle;
+}
+
+/* Message Form Styles */
+#msgContainer {
+    margin-top: 30px;
+}
+
+#msgForm {
+    display: inline-block;
+    text-align: left;
+}
+
+#msgForm h3 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #575757;
+}

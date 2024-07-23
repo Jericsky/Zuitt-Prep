@@ -1,0 +1,36 @@
+.box {
+	background-color: deeppink;
+	border: 2px solid black;
+	margin: 20px;
+	width: 300px;
+}
+
+.one-rem {
+	font-size: 1rem;
+}
+
+.two-rem {
+	font-size: 2rem;
+}
+
+html {
+	font-size: 20px;
+}
+
+.fifty-vw {
+	width: 50vw;
+}
+
+.twenty-five-vh {
+	height:  25vh;
+}
+
+.background {
+	height: 20rem;
+/*	background-color: gray; */
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}

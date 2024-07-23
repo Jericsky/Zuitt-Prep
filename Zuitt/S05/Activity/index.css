@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1d;
+    color: #c5c6c7;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    background: #4e4e50;
+    padding: 8px 16px;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #66fcf1;
+    font-weight: bold;
+    margin-right: auto; /* Push logo to the left */
+}
+
+nav a {
+    color: #c5c6c7;
+    margin: 0 20px; /* Adjust margin as needed */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Adding transition for color and transform */
+    font-size: 18px; /* Increase font size for a more prominent look */
+}
+
+nav a:hover {
+    color: #66fcf1; /* Change color on hover to a brighter futuristic color */
+    transform: scale(1.1); /* Move up slightly and scale up on hover */
+}
+
+#landing {
+    padding: 50px 16px;
+    background: linear-gradient(180deg, #1f2833 0%, #0b0c10 100%);
+    text-align: center;
+}
+
+#landing h1 {
+    font-size: 48px;
+    color: #66fcf1;
+    margin: 5px 0;
+}
+
+#landing h2 {
+    font-size: 32px;
+    color: #c5c6c7;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+#landing h4 {
+    font-size: 20px;
+    margin: 5px;
+    color: #c5c6c7;
+}
+
+#landing form {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+#landing input {
+    padding: 10px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#landing button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0b0c10;
+    background: #66fcf1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#landing button:hover {
+    background-color: #45a29e; 
+    color: #fff; 
+}
+
+#movies {
+    padding: 32px;
+    text-align: center;
+}
+
+#movies h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #66fcf1;
+}
+
+#movies div {
+    display: inline-block;
+    width: 350px;
+    margin: 16px;
+    text-align: center;
+}
+
+#movies img.movie-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#movies img.movie-img:hover, p {
+    transform: scale(1.05);
+}
+
+#movies p {
+    margin: 8px 0;
+}
+
+#movies button {
+    padding: 8px 16px;
+    color: black;
+    background: #66fcf1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#movies button:hover {
+    background: #45a29e;
+}
+
+#contact {
+    padding: 30px;
+}
+
+#contactUs {
+    text-align: center;
+}
+
+#ARS {
+    text-align: center;
+    vertical-align: 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #c5c6c7;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #66fcf1;
+}
+/*
+footer p {
+    margin-top: 8px;
+    color: #757575;
+}
+*/

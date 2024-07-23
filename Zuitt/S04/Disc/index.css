@@ -1,0 +1,94 @@
+/* 
+
+
+
+
+*/
+
+* {
+	font-family: "Courier New", monospace;
+}
+
+h1	{
+	font-family: "Tahoma", sans-sarif;
+}
+
+body {
+	background-color: skyblue;
+}
+
+section {
+	text-align: center;
+}
+
+nav {
+	font-size: 18px
+	background-color: black;
+	padding: 15px;
+	text-align: center;
+	cursor: crosshair;
+}
+ 
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* class selector */
+.title {
+	color: green;
+}
+
+/* id selector(#) */
+#hello {
+	color: black;
+	font-size: 32px;
+}
+
+#logo {
+	hhttps://www.facebook.com/christianjeric.santos/eight: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+#top {
+	background-color: white;
+}
+
+.tech-img{
+	height: 200px;
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

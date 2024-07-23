@@ -1,0 +1,97 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+nav {
+	padding: 8px;
+	margin-bottom: 32px;
+	text-align: center;
+	background-color: gray;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#intro {
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+	border: 2px black solid;
+}
+
+.header {
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+
+}
+
+.card {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#apply {
+	color: white;
+	background-color: slateblue;
+	padding: 8px;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+#mission {
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+footer {
+	padding: 16px;
+	text-align: center;
+	background-color: slateblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

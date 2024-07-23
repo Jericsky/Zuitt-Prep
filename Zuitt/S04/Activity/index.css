@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block; 
+}
+
+nav a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+
+/* Space between navigation items */
+nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+#landing, #tools, #contact {
+    padding: 20px;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+#tools img {
+    margin-right: 30px;
+}
+
+#contact section {
+    margin: 20px 0;
+}
+
+#msgForm {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+#msgForm input, #msgForm textarea, #msgForm select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#msgForm button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#msgForm button:hover {
+    background-color: #575757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
